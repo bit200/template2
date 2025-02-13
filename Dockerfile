@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-WORKDIR /app/itk-super-offer
+WORKDIR /app
 
 COPY package*.json ./
 RUN npm i -g node-dev
