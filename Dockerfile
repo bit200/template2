@@ -7,5 +7,6 @@ RUN npm i -g node-dev
 COPY . . 
 EXPOSE 3000
 
+RUN apk add --no-cache openssh bash
 
 CMD ["node-dev", "index.js"] 
