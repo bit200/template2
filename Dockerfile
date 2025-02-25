@@ -9,4 +9,4 @@ EXPOSE 3000
 
 RUN apk add --no-cache openssh bash
 
-CMD ["node-dev", "index.js"] 
+CMD ["sh", "./cmd.sh"]
